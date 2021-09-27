@@ -13,13 +13,3 @@ if Game_Option == "custom":
         lst.append("_")
 
     game()
-
-    list_length = len(lst)
-    end_list_length = 0
-
-    for elements in lst:
-        if elements != "_":
-            end_list_length += 1
-            if end_list_length == end_list_length:
-                print("Congrats, you win!")
-                quit()
